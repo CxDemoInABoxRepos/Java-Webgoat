@@ -4,6 +4,7 @@ ARG webgoat_version=8.2.1-SNAPSHOT
 ENV webgoat_version_env=${webgoat_version}
 
 RUN apt-get update
+RUN apt-get install
 RUN useradd -ms /bin/bash webgoat
 RUN apt-get -y install apt-utils nginx
 
