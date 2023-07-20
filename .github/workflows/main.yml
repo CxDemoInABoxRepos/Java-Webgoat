@@ -11,7 +11,6 @@ on:
         - info
         - warning
         - debug
-on:
   push:
     branches:
       - main
